@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p,
+h2,
+h3,
+h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+
+/*----- Cabeçalho -----*/
+
+header {
+    background-color: #fff;
+    padding: 32px 64px;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    border: 2px solid #e5e5e5;
+    border-radius: 50%;
+    margin-bottom: -120px;
+    width: 300px;
+    height: auto;
+    margin-right: 24px;
+}
+
+.text-header {
+    /*display: inline-block;
+    */
+    padding-top: 50px;
+}
+
+.text-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.profession {
+    font-size: 24px;
+}
+
+.t60 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*----- Caixa de todo o conteudo-----*/
+
+main {
+    padding: 40px 70px;
+    display: flex;
+}
+
+
+/*----- Caixa do lado esquerdo -----*/
+
+.box-left {
+    margin-top: 60px;
+    width: 288px;
+}
+
+.experience h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.line {
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 4px;
+}
+
+.experience .line {
+    border-color: #4200ff;
+}
+
+.list-experience {
+    margin-top: 12px;
+}
+
+.list-experience h3,
+h4 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.list-experience h4 {
+    font-size: 15px;
+}
+
+.list-experience p {
+    font-size: 14px;
+}
+
+
+/*----- Formação Acadêmica-----*/
+
+.formation {
+    margin-top: 15px;
+}
+
+.formation h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.formation .line {
+    width: 40px;
+    border-color: #4200ff;
+}
+
+.list-formation {
+    margin-top: 15px;
+}
+
+.list-formation h3 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.list-formation h4 {
+    font-size: 15px;
+}
+
+
+/*----- Box da Direita -----*/
+
+.box-right {
+    margin-left: 20px;
+}
+
+.box-right h2 {
+    margin-left: 15px;
+    margin: 15px 0 15px 15px;
+}
+
+
+/*----- Habilidades -----*/
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fff;
+    width: 288px;
+    border-radius: 16px;
+    padding: 24px;
+    /*margin-top: 12px;*/
+    /* margin-left: 12px;*/
+    margin: 0 0 0 15px;
+}
+
+.card:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.card h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+
+/*----- Cursos -----*/
+
+.progress {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 12px;
+    padding: 24px;
+}
+
+.progress h3 {
+    line-height: 40px;
+}
+
+.progress a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.progress a:hover {
+    color: #555555;
+}
+
+
+/*----- Projetos -----*/
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-projects {
+    background-color: #fff;
+    width: 288px;
+    margin: 0 25px 15px 15px;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+.card-projects img {
+    width: 250px;
+    object-fit: cover;
+}
+
+.card-projects h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-projects p {
+    margin: 5px 0;
+}
+
+.card-projects a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    background-color: #4200ff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 8px 24px;
+    margin-top: 24px;
+    border-radius: 4px;
+}
+
+
+/*----- Footer -----*/
+
+footer {
+    background-color: #4200ff;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    padding: 24px;
+    text-align: center;
+    width: 100%;
+}
